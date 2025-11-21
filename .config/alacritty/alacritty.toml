@@ -1,0 +1,19 @@
+[general]
+import = [
+  "~/.config/alacritty/themes/themes/monokai.toml"
+]
+
+[font.normal]
+family = "Fira Code Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "Fira Code Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "Fira Code Nerd Font"
+style = "Italic"
+
+[window]
+opacity = 0.75

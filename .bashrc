@@ -16,4 +16,4 @@ alias hyprconf='nvim ~/.config/hypr/hyprland.conf'
 export PATH="$PATH:$HOME/.rvm/bin"
 . "$HOME/.cargo/env"
 export QT_QPA_PLATFORMTHEME=qt5ct
-alias dotfiles=/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
