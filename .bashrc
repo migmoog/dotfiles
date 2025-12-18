@@ -18,3 +18,6 @@ export PATH="$PATH:$HOME/.rvm/bin"
 . "$HOME/.cargo/env"
 export QT_QPA_PLATFORMTHEME=qt5ct
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

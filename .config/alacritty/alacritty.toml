@@ -17,3 +17,7 @@ style = "Italic"
 
 [window]
 opacity = 0.75
+
+[terminal.shell]
+program = "/bin/bash"
+args = [ "--login" ] # need this for RVM, not sure what it does
