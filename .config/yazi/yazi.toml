@@ -2,3 +2,11 @@
 edit = [
  { run = 'nvim "$@"', block = true, for = "unix"}
 ]
+RStudio = [
+  { run = "rstudio %s", block=true, for = "unix"}
+]
+
+[open]
+prepend_rules = [
+  { url = "*.Rmd", use = "RStudio"}
+]

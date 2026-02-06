@@ -11,6 +11,7 @@ PS1='[\u@\h \W]\$ '
 
 # automatically open the config to edit shi
 alias hyprconf='nvim ~/.config/hypr/hyprland.conf'
+alias niriconf='nvim ~/.config/niri/config.kdl'
 alias nvimconf='nvim ~/.config/nvim/init.lua'
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
