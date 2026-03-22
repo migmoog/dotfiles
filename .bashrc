@@ -16,9 +16,15 @@ alias nvimconf='nvim ~/.config/nvim/init.lua'
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$PATH:$HOME/.pyenv"
+# eval "($pyenv init -)"
 . "$HOME/.cargo/env"
 export QT_QPA_PLATFORMTHEME=qt5ct
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+alias playscii="cd ~/installed-utils/playscii/ && . playscii_linux.sh"
+
+export PATH="$PATH:$HOME/installed-utils/"
