@@ -27,4 +27,4 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 alias playscii="cd ~/installed-utils/playscii/ && . playscii_linux.sh"
 
-export PATH="$PATH:$HOME/installed-utils/"
+export PATH="$PATH:$HOME/installed-utils/:$HOME/compiled-utils/"
